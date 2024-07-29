@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\Dbfunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|solutionrelative:Sockets\\Dbfunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\Dbfunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|solutionrelative:Sockets\\Dbfunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\StaticFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|solutionrelative:Sockets\\StaticFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\StaticData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|solutionrelative:Sockets\\StaticData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|solutionrelative:Sockets\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\MyForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|solutionrelative:Sockets\\MyForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|solutionrelative:Sockets\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\FrmSetHost.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|solutionrelative:Sockets\\FrmSetHost.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\FrmSetHost.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|solutionrelative:Sockets\\FrmSetHost.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\SystemNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC9A0E9F-2F6D-4E31-9026-9E7541DB73B7}|Sockets\\Sockets.vcxproj|solutionrelative:Sockets\\SystemNode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 140,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dbfunctions.cpp",
+              "DocumentMoniker": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\Dbfunctions.cpp",
+              "RelativeDocumentMoniker": "Sockets\\Dbfunctions.cpp",
+              "ToolTip": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\Dbfunctions.cpp",
+              "RelativeToolTip": "Sockets\\Dbfunctions.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-29T15:22:44.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dbfunctions.h",
+              "DocumentMoniker": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\Dbfunctions.h",
+              "RelativeDocumentMoniker": "Sockets\\Dbfunctions.h",
+              "ToolTip": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\Dbfunctions.h",
+              "RelativeToolTip": "Sockets\\Dbfunctions.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-29T15:22:08.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StaticData.h",
+              "DocumentMoniker": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\StaticData.h",
+              "RelativeDocumentMoniker": "Sockets\\StaticData.h",
+              "ToolTip": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\StaticData.h",
+              "RelativeToolTip": "Sockets\\StaticData.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-28T01:00:51.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyForm.cpp",
+              "DocumentMoniker": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\MyForm.cpp",
+              "RelativeDocumentMoniker": "Sockets\\MyForm.cpp",
+              "ToolTip": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\MyForm.cpp",
+              "RelativeToolTip": "Sockets\\MyForm.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA6wAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-28T00:56:19.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FrmSetHost.h",
+              "DocumentMoniker": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\FrmSetHost.h",
+              "RelativeDocumentMoniker": "Sockets\\FrmSetHost.h",
+              "ToolTip": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\FrmSetHost.h",
+              "RelativeToolTip": "Sockets\\FrmSetHost.h",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-28T00:47:54.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmSetHost.h [Design]",
+              "DocumentMoniker": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\FrmSetHost.h",
+              "RelativeDocumentMoniker": "Sockets\\FrmSetHost.h",
+              "ToolTip": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\FrmSetHost.h [Design]",
+              "RelativeToolTip": "Sockets\\FrmSetHost.h [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-28T00:44:17.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyForm.h",
+              "DocumentMoniker": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\MyForm.h",
+              "RelativeDocumentMoniker": "Sockets\\MyForm.h",
+              "ToolTip": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\MyForm.h",
+              "RelativeToolTip": "Sockets\\MyForm.h",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-26T17:52:46.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaticFunctions.h",
+              "DocumentMoniker": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\StaticFunctions.h",
+              "RelativeDocumentMoniker": "Sockets\\StaticFunctions.h",
+              "ToolTip": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\StaticFunctions.h",
+              "RelativeToolTip": "Sockets\\StaticFunctions.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-28T12:54:02.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SystemNode.h",
+              "DocumentMoniker": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\SystemNode.h",
+              "RelativeDocumentMoniker": "Sockets\\SystemNode.h",
+              "ToolTip": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\SystemNode.h",
+              "RelativeToolTip": "Sockets\\SystemNode.h",
+              "ViewState": "AgIAADkAAAAAAAAAAAAwwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-28T00:36:58.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyForm.h [Design]",
+              "DocumentMoniker": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\MyForm.h",
+              "RelativeDocumentMoniker": "Sockets\\MyForm.h",
+              "ToolTip": "C:\\Users\\luyfe\\source\\repos\\Estudo_aula_01\\Sockets\\MyForm.h [Design]",
+              "RelativeToolTip": "Sockets\\MyForm.h [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-26T17:52:44.892Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+﻿  Dbfunctions.cpp
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Dbfunctions.cpp(23,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Dbfunctions.cpp(24,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Dbfunctions.cpp(25,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Dbfunctions.cpp(26,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Dbfunctions.cpp(27,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Dbfunctions.cpp(55,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Dbfunctions.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+Dbfunctions.obj : warning LNK4248: unresolved typeref token (01000020) for 'sqlite3'; image may not run
+  Sockets.vcxproj -> C:\Users\luyfe\source\repos\Estudo_aula_01\Debug\Sockets.exe
+  'pwsh.exe' não é reconhecido como um comando interno
+  ou externo, um programa operável ou um arquivo em lotes.

@@ -1,0 +1,85 @@
+  Sockets.FrmSetHost.resources - Embedded, ContainedInManifestFile, 
+  Sockets.MyForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Sockets, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class SocketsTeste.FrmSetHost: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Int16, System.String, System.String, System.Windows.Forms.ComboBox ByRef): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox txbUserName : Public
+    System.Windows.Forms.TextBox txbPort : Public
+    System.Windows.Forms.TextBox txbAdressFriend : Public
+Class NewConnectionEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(String): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(String, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class NewMessage: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(String): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(String, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class SystemNode: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, Int32, System.Action`1[System.String]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Events:
+    NewMessage OnNewMessage: SpecialName
+    NewConnectionEventHandler OnNewConnection: SpecialName
+  Methods:
+    add_OnNewConnection(NewConnectionEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnNewConnection(NewConnectionEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_OnNewMessage(NewMessage): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnNewMessage(NewMessage): PrivateScope, Public, HideBySig, SpecialName
+    GetConnectedNodeCount(): PrivateScope, Public, HideBySig
+    Start(): PrivateScope, Public, HideBySig
+    SendMessageTo(String, String, Int32): PrivateScope, Public, HideBySig
+    BroadcastMessage(String): PrivateScope, Public, HideBySig
+    ReceiveData(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class StaticData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Int16 Porta 'get set' : 
+    System.String Destinatario 'get set' : 
+    System.String Usuario 'get set' : 
+  Methods:
+    set_Usuario(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Usuario(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_Destinatario(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Destinatario(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_Porta(Int16): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_Porta(): PrivateScope, Public, Static, HideBySig, SpecialName
+    GetLocalIPAddress(): PrivateScope, Public, Static, HideBySig
+    IsPortOpen(String, Int32): PrivateScope, Public, Static, HideBySig
+    GetLocalNetworkIPs(ComboBox&): PrivateScope, Public, Static, HideBySig
+Class StaticFunctions: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    validation(): PrivateScope, Public, Static, HideBySig
+    StringToBase64(String): PrivateScope, Public, Static, HideBySig
+    Base64ToString(String): PrivateScope, Public, Static, HideBySig
+    CreateDataBase(): PrivateScope, Public, Static, HideBySig
+Class SocketsTeste.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    SocketsTeste.FrmSetHost def : Public
+    System.Windows.Forms.ComboBox combo : Public

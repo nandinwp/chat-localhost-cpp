@@ -1,0 +1,14 @@
+C:\Users\luyfe\source\repos\Estudo_aula_01\TrabalhoDuro\bin\Release\net8.0\TrabalhoDuro.exe
+C:\Users\luyfe\source\repos\Estudo_aula_01\TrabalhoDuro\bin\Release\net8.0\TrabalhoDuro.deps.json
+C:\Users\luyfe\source\repos\Estudo_aula_01\TrabalhoDuro\bin\Release\net8.0\TrabalhoDuro.runtimeconfig.json
+C:\Users\luyfe\source\repos\Estudo_aula_01\TrabalhoDuro\bin\Release\net8.0\TrabalhoDuro.dll
+C:\Users\luyfe\source\repos\Estudo_aula_01\TrabalhoDuro\bin\Release\net8.0\TrabalhoDuro.pdb
+C:\Users\luyfe\source\repos\Estudo_aula_01\TrabalhoDuro\obj\Release\net8.0\TrabalhoDuro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luyfe\source\repos\Estudo_aula_01\TrabalhoDuro\obj\Release\net8.0\TrabalhoDuro.AssemblyInfoInputs.cache
+C:\Users\luyfe\source\repos\Estudo_aula_01\TrabalhoDuro\obj\Release\net8.0\TrabalhoDuro.AssemblyInfo.cs
+C:\Users\luyfe\source\repos\Estudo_aula_01\TrabalhoDuro\obj\Release\net8.0\TrabalhoDuro.csproj.CoreCompileInputs.cache
+C:\Users\luyfe\source\repos\Estudo_aula_01\TrabalhoDuro\obj\Release\net8.0\TrabalhoDuro.dll
+C:\Users\luyfe\source\repos\Estudo_aula_01\TrabalhoDuro\obj\Release\net8.0\refint\TrabalhoDuro.dll
+C:\Users\luyfe\source\repos\Estudo_aula_01\TrabalhoDuro\obj\Release\net8.0\TrabalhoDuro.pdb
+C:\Users\luyfe\source\repos\Estudo_aula_01\TrabalhoDuro\obj\Release\net8.0\TrabalhoDuro.genruntimeconfig.cache
+C:\Users\luyfe\source\repos\Estudo_aula_01\TrabalhoDuro\obj\Release\net8.0\ref\TrabalhoDuro.dll

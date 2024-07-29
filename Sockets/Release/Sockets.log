@@ -1,0 +1,16 @@
+﻿  Dbfunctions.cpp
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Dbfunctions.cpp(11,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Dbfunctions.cpp(12,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Dbfunctions.cpp(13,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Dbfunctions.cpp(14,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Dbfunctions.cpp(15,2): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Dbfunctions.cpp(32,17): warning C4101: 'stmt': unreferenced local variable
+  FrmSetHost.cpp
+  MyForm.cpp
+  .NETFramework,Version=v4.8.1.AssemblyAttributes.cpp
+  Generating Code...
+  Dbfunctions.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+Dbfunctions.obj : warning LNK4248: unresolved typeref token (01000020) for 'sqlite3'; image may not run
+  Sockets.vcxproj -> C:\Users\luyfe\source\repos\Estudo_aula_01\Release\Sockets.exe
+  'pwsh.exe' não é reconhecido como um comando interno
+  ou externo, um programa operável ou um arquivo em lotes.
