@@ -1,4 +1,6 @@
+  Sockets.FrmListUser.resources - Embedded, ContainedInManifestFile, 
   Sockets.FrmSetHost.resources - Embedded, ContainedInManifestFile, 
+  Sockets.FrmSetUser.resources - Embedded, ContainedInManifestFile, 
   Sockets.MyForm.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly Sockets, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
@@ -15,6 +17,14 @@ Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=
 	hash=None, flags=None
 Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
 	hash=None, flags=None
+Class SocketsTeste.FrmListUser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.ListView lvUsers : Public
+    System.String pass : Public, Static
+    System.String user : Public, Static
+    System.String userId : Public, Static
 Class SocketsTeste.FrmSetHost: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(Int16, System.String, System.String, System.Windows.Forms.ComboBox ByRef): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -22,6 +32,14 @@ Class SocketsTeste.FrmSetHost: AutoLayout, AnsiClass, Class, Public, BeforeField
     System.Windows.Forms.TextBox txbUserName : Public
     System.Windows.Forms.TextBox txbPort : Public
     System.Windows.Forms.TextBox txbAdressFriend : Public
+Class SocketsTeste.FrmSetUser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.TextBox txbUserName : Public
+    System.Windows.Forms.TextBox txbPass : Public
+  Methods:
+    Check(Boolean&): PrivateScope, Public, HideBySig
 Class NewConnectionEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
   :System.MulticastDelegate
     Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
@@ -59,10 +77,16 @@ Class StaticData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   Properties:
     Int16 Porta 'get set' : 
     System.String Destinatario 'get set' : 
+    System.String CurrentUserID 'get set' : 
+    System.String ParamLink 'get set' : 
     System.String Usuario 'get set' : 
   Methods:
     set_Usuario(String): PrivateScope, Public, Static, HideBySig, SpecialName
     get_Usuario(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_ParamLink(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_ParamLink(): PrivateScope, Public, Static, HideBySig, SpecialName
+    set_CurrentUserID(String): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_CurrentUserID(): PrivateScope, Public, Static, HideBySig, SpecialName
     set_Destinatario(String): PrivateScope, Public, Static, HideBySig, SpecialName
     get_Destinatario(): PrivateScope, Public, Static, HideBySig, SpecialName
     set_Porta(Int16): PrivateScope, Public, Static, HideBySig, SpecialName
@@ -70,6 +94,11 @@ Class StaticData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     GetLocalIPAddress(): PrivateScope, Public, Static, HideBySig
     IsPortOpen(String, Int32): PrivateScope, Public, Static, HideBySig
     GetLocalNetworkIPs(ComboBox&): PrivateScope, Public, Static, HideBySig
+Class Secure: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    EncryptMessage(String): PrivateScope, Public, Static, HideBySig
+    DecryptMessage(Byte[]): PrivateScope, Public, Static, HideBySig
 Class StaticFunctions: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Methods:
@@ -77,6 +106,20 @@ Class StaticFunctions: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
     StringToBase64(String): PrivateScope, Public, Static, HideBySig
     Base64ToString(String): PrivateScope, Public, Static, HideBySig
     CreateDataBase(): PrivateScope, Public, Static, HideBySig
+    LoadMenssages(Object): PrivateScope, Public, Static, HideBySig
+    GenerateInvite(): PrivateScope, Public, Static, HideBySig
+    AcceptInvite(): PrivateScope, Public, Static, HideBySig
+    CreateUser(): PrivateScope, Public, Static, HideBySig
+    Login(String, String): PrivateScope, Public, Static, HideBySig
+    LoadFriendsFunction(ListView&): PrivateScope, Public, Static, HideBySig
+    RegisterProtocol(): PrivateScope, Public, Static, HideBySig
+    SalvarConfiguracao(String, Object): PrivateScope, Public, Static, HideBySig
+    LerConfiguracao(String): PrivateScope, Public, Static, HideBySig
+    OnUpdateAmigos(Object, EventArgs): PrivateScope, Public, HideBySig
+Class ScriptManager: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    ShowMessage(String): PrivateScope, Public, HideBySig
 Class SocketsTeste.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

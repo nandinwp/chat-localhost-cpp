@@ -45,7 +45,6 @@ public:
         receiveThread->Priority = ThreadPriority::Highest;
         receiveThread->IsBackground = true;
         receiveThread->Start();
-        MessageBox::Show("Conexão iniciada!", "Sockets", MessageBoxButtons::OK, MessageBoxIcon::Information);
     }
 
     void SendMessageTo(String^ message, String^ address, int port)
@@ -67,8 +66,17 @@ public:
     {
         for each (KeyValuePair<String^, IPEndPoint^> ^ kvp in connectedNodes)
         {
-            SendMessageTo(message, kvp->Value->Address->ToString(), kvp->Value->Port);
+            String^ ip = kvp->Value->Address->ToString();
+            MessageBox::Show(ip, "IP");
+            SendMessageTo(message, ip, kvp->Value->Port);
         }
+    }
+
+    void SendDiscoveryRequest()
+    {
+        String^ discoveryMessage = String::Format("{0} está à procura de outros nós", nodeName);
+        IPEndPoint^ broadcastEndPoint = gcnew IPEndPoint(IPAddress::Broadcast, port);
+        SendMessageTo(discoveryMessage, broadcastEndPoint->Address->ToString(), broadcastEndPoint->Port);
     }
 
     void ReceiveData()

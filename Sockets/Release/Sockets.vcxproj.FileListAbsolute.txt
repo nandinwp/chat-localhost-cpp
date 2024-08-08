@@ -1,4 +1,6 @@
 C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Release\Sockets.vcxproj.AssemblyReference.cache
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Release\Sockets.FrmListUser.resources
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Release\Sockets.FrmSetHost.resources
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Release\Sockets.FrmSetUser.resources
 C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Release\Sockets.MyForm.resources
 C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Release\Sockets.vcxproj.GenerateResource.cache
-C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Release\Sockets.FrmSetHost.resources

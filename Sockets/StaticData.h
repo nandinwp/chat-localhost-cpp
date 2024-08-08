@@ -12,6 +12,8 @@ private:
 	static String^ user;
 	static Int16 port=8080;
     static String^ userSend;
+    static String^ currentUserId;
+    static String^ parameterReceived;
 
 public:
 	static property String^ Usuario 
@@ -19,6 +21,16 @@ public:
 		void set(String^ val) { user = val; }
 		String^ get() { return user;}
 	}
+    static property String^ ParamLink
+    {
+        void set(String^ val) { parameterReceived = val; }
+        String^ get() { return parameterReceived; }
+    }
+    static property String^ CurrentUserID
+    {
+        void set(String^ val) { currentUserId = val; }
+        String^ get() { return currentUserId; }
+    }
     static property String^ Destinatario
     {
         void set(String^ val) { userSend = val; }

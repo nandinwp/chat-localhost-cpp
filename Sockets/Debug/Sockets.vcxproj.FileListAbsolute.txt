@@ -1,4 +1,7 @@
 C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Debug\Sockets.vcxproj.AssemblyReference.cache
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Debug\Sockets.FrmListUser.resources
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Debug\Sockets.FrmSetHost.resources
+C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Debug\Sockets.FrmSetUser.resources
 C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Debug\Sockets.MyForm.resources
 C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Debug\Sockets.vcxproj.GenerateResource.cache
-C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Debug\Sockets.FrmSetHost.resources
+C:\Users\luyfe\source\repos\Estudo_aula_01\Debug\Interactive.htm

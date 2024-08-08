@@ -5,7 +5,11 @@
       <FullPath>C:\Users\luyfe\source\repos\Estudo_aula_01\Debug\Sockets.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
-  <ContentFiles />
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\luyfe\source\repos\Estudo_aula_01\Sockets\Interactive.htm</FullPath>
+    </ContentFile>
+  </ContentFiles>
   <SatelliteDlls />
   <NonRecipeFileRefs />
 </Project>
